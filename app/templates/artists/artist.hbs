@@ -1,0 +1,10 @@
+{{outlet}}
+
+<p> This artist has {{model.length}} song(s). </p>
+
+	{{#each model as |song|}}
+		{{song-item song=song}}
+
+	{{/each}}
+
+

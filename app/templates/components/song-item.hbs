@@ -1,0 +1,24 @@
+	<p>
+			**************************************************
+			<br>
+			Title: {{song.title}}
+			<br> 
+			Price: ${{song.price}}
+			<br>
+			{{#if isCheap}}
+				$
+			{{/if}}
+			{{#if isExpensive}}
+				$$
+			{{/if}}
+			<br>
+			Play Count: {{song.playCount}}	
+			<br>
+			{{#if isPopular}}
+				<img style = "width: 50px"
+				src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Golden_star.svg/120px-Golden_star.svg.png">
+			{{/if}}
+			<br>
+			**************************************************
+
+</p>
